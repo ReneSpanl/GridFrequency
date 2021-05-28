@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name PCB_library)(type Legacy)(uri ${KIPRJMOD}/PCB_library.lib)(options "")(descr ""))
+  (lib (name PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/PCB-rescue.lib)(options "")(descr ""))
+  (lib (name ESP32_Unterputz-rescue)(type Legacy)(uri C:/Users/MiniWire/Desktop/Nextcloud/Projekte/CAD/ESP32_Unterputz/ESP32_Unterputz-rescue.lib)(options "")(descr ""))
+  (lib (name dk_RF-Antennas)(type Legacy)(uri ${KIPRJMOD}/digikey-symbols/dk_RF-Antennas.lib)(options "")(descr ""))
+  (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+)
