@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name IsolationBarrier)(type KiCad)(uri ${KIPRJMOD}/IsolationBarrier.pretty)(options "")(descr ""))
+  (lib (name Netzfrequenz)(type KiCad)(uri "X:/AHS/Netzfrequenz/Netzfrequenz/PCB/Frequenzmessung PCB.pretty")(options "")(descr ""))
+)

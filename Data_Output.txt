@@ -1,0 +1,1 @@
+YYYY.MM.DD HH:MM:SS.FFF | Frequency | 50Hz Voltage | Maximum Voltage | 100Hz (%)| 150Hz (%)| 200Hz (%)| 250Hz (%)| 300Hz (%)| 350Hz (%)| 400Hz (%)| 450Hz (%)| 500Hz (%)| 550Hz (%)| 600Hz (%)| 650Hz (%) | 700Hz (%)| 750Hz (%)| 800Hz (%)| 850Hz (%)| 900Hz (%)| 950Hz (%)| 1000Hz (%)| 1050Hz (%)| 1100Hz (%)| 1150Hz (%)| 1200Hz (%)| 1250Hz (%)| 

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PCB_library)(type Legacy)(uri "C:/Users/uj88oval/Desktop/Frequenzmessung PCB/PCB_library.lib")(options "")(descr ""))
+  (lib (name IsolationBarrier-rescue)(type Legacy)(uri ${KIPRJMOD}/IsolationBarrier-rescue.lib)(options "")(descr ""))
+)

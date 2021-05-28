@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Frequenzmessung PCB")(type KiCad)(uri "${KIPRJMOD}/Frequenzmessung PCB.pretty")(options "")(descr ""))
+  (lib (name "DigiKey Footprints")(type KiCad)(uri Y:/AHS/Netzfrequenz/Netzfrequenz/PCB/digikey-footprints.pretty)(options "")(descr ""))
+)

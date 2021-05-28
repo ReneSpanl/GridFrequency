@@ -1,0 +1,653 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1400 1150 2    50   Input ~ 0
+L
+Text GLabel 1400 1050 2    50   Input ~ 0
+N
+Text GLabel 1050 3350 0    50   Input ~ 0
+L
+Text GLabel 1050 3850 0    50   Input ~ 0
+N
+$Comp
+L Device:Fuse F1
+U 1 1 5F9E37BF
+P 1300 3350
+AR Path="/5F9E37BF" Ref="F1"  Part="1" 
+AR Path="/5F9CF1F9/5F9E37BF" Ref="F?"  Part="1" 
+F 0 "F1" V 1497 3350 50  0000 C CNN
+F 1 "5 mA " V 1406 3350 50  0000 C CNN
+F 2 "IsolationBarrier:LVR005NS" V 1230 3350 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/littelfuse-inc/LVR005NS/LVR005NS-ND/1853845" H 1300 3350 50  0001 C CNN
+	1    1300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F9E37C5
+P 2000 3850
+AR Path="/5F9E37C5" Ref="R4"  Part="1" 
+AR Path="/5F9CF1F9/5F9E37C5" Ref="R?"  Part="1" 
+F 0 "R4" V 1793 3850 50  0000 C CNN
+F 1 "82k" V 1884 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1930 3850 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGP1206F82K/A130561CT-ND/8578393" H 2000 3850 50  0001 C CNN
+	1    2000 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F9E37CB
+P 2900 3600
+AR Path="/5F9E37CB" Ref="R5"  Part="1" 
+AR Path="/5F9CF1F9/5F9E37CB" Ref="R?"  Part="1" 
+F 0 "R5" H 3050 3550 50  0000 R CNN
+F 1 "200" H 3100 3650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2830 3600 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCF1206TKY200R/RNCF1206TKY200RCT-ND/4928405" H 2900 3600 50  0001 C CNN
+	1    2900 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS D1
+U 1 1 5F9E37D1
+P 3150 3600
+AR Path="/5F9E37D1" Ref="D1"  Part="1" 
+AR Path="/5F9CF1F9/5F9E37D1" Ref="D?"  Part="1" 
+F 0 "D1" V 3104 3680 50  0000 L CNN
+F 1 "5V" V 3195 3680 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3150 3600 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/on-semiconductor/ESD9B5-0ST5G/ESD9B5-0ST5GOSCT-ND/1646497" H 3150 3600 50  0001 C CNN
+	1    3150 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 3350 2900 3450
+Wire Wire Line
+	3150 3350 3150 3450
+Wire Wire Line
+	2900 3750 2900 3850
+Wire Wire Line
+	3150 3750 3150 3850
+$Comp
+L Device:R R3
+U 1 1 5F9E37DD
+P 1650 3850
+AR Path="/5F9E37DD" Ref="R3"  Part="1" 
+AR Path="/5F9CF1F9/5F9E37DD" Ref="R?"  Part="1" 
+F 0 "R3" V 1443 3850 50  0000 C CNN
+F 1 "82k" V 1534 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1580 3850 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGP1206F82K/A130561CT-ND/8578393" H 1650 3850 50  0001 C CNN
+	1    1650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F9E37E3
+P 2000 3350
+AR Path="/5F9E37E3" Ref="R2"  Part="1" 
+AR Path="/5F9CF1F9/5F9E37E3" Ref="R?"  Part="1" 
+F 0 "R2" V 1793 3350 50  0000 C CNN
+F 1 "82k" V 1884 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1930 3350 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGP1206F82K/A130561CT-ND/8578393" H 2000 3350 50  0001 C CNN
+	1    2000 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 3850 1850 3850
+Text GLabel 3900 3150 1    50   Input ~ 0
++5v_iso
+$Comp
+L power:GND #PWR0102
+U 1 1 5F9E37F5
+P 4900 3900
+AR Path="/5F9E37F5" Ref="#PWR0102"  Part="1" 
+AR Path="/5F9CF1F9/5F9E37F5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0102" H 4900 3650 50  0001 C CNN
+F 1 "GND" H 4905 3727 50  0000 C CNN
+F 2 "" H 4900 3900 50  0001 C CNN
+F 3 "" H 4900 3900 50  0001 C CNN
+	1    4900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 3900
+Wire Wire Line
+	2900 3350 3150 3350
+Wire Wire Line
+	2900 3850 3150 3850
+Wire Wire Line
+	3750 1650 4000 1650
+$Comp
+L Device:C C4
+U 1 1 5F9E381D
+P 3750 1850
+AR Path="/5F9E381D" Ref="C4"  Part="1" 
+AR Path="/5F9CF1F9/5F9E381D" Ref="C?"  Part="1" 
+F 0 "C4" H 3865 1896 50  0000 L CNN
+F 1 "100n" H 3865 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3788 1700 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/tdk-corporation/CGA1A2X7R1A103M030BA/445-12060-1-ND/3953726" H 3750 1850 50  0001 C CNN
+	1    3750 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 1700 1    50   Input ~ 0
++5v_iso
+Text Notes 1050 4600 0    50   ~ 0
+Isolation Barrier for Mains Voltage
+Wire Wire Line
+	1200 1950 1300 1950
+$Comp
+L Device:C C1
+U 1 1 5F9E3832
+P 3050 1850
+AR Path="/5F9E3832" Ref="C1"  Part="1" 
+AR Path="/5F8B9174/5F9E3832" Ref="C?"  Part="1" 
+AR Path="/5F9CF1F9/5F9E3832" Ref="C?"  Part="1" 
+F 0 "C1" H 3165 1896 50  0000 L CNN
+F 1 "22u" H 3165 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3088 1700 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL31A226MOCLNNC/1276-2728-1-ND/3890814" H 3050 1850 50  0001 C CNN
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1750 2200 1750
+Wire Wire Line
+	2200 1750 2200 1700
+Wire Wire Line
+	2100 1950 2200 1950
+Wire Wire Line
+	2200 1950 2200 2000
+Wire Notes Line
+	950  2300 950  1300
+Text Notes 1300 2250 0    50   ~ 0
+Mains Power Supply
+Text GLabel 1200 1750 0    50   Input ~ 0
+L
+Text GLabel 1200 1950 0    50   Input ~ 0
+N
+Wire Wire Line
+	1200 1750 1300 1750
+Wire Wire Line
+	3650 2050 3650 2100
+Text GLabel 3650 1650 1    50   Input ~ 0
++5v_iso
+Wire Wire Line
+	3750 1700 3750 1650
+Wire Wire Line
+	4000 2050 3750 2050
+Wire Wire Line
+	3750 2000 3750 2050
+Connection ~ 3750 2050
+Wire Wire Line
+	3750 2050 3650 2050
+$Comp
+L Device:C C5
+U 1 1 5F9E3855
+P 5150 1850
+AR Path="/5F9E3855" Ref="C5"  Part="1" 
+AR Path="/5F9CF1F9/5F9E3855" Ref="C?"  Part="1" 
+F 0 "C5" H 5265 1896 50  0000 L CNN
+F 1 "1u" H 5265 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5188 1700 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL31B105KAHNNNE/1276-1097-1-ND/3889183" H 5150 1850 50  0001 C CNN
+	1    5150 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1650 5150 1650
+Wire Wire Line
+	5150 1650 5150 1700
+Wire Wire Line
+	5150 2000 5150 2050
+Wire Wire Line
+	5150 2050 5000 2050
+Connection ~ 5150 2050
+$Comp
+L power:+5VA #PWR0106
+U 1 1 5F9E3860
+P 5150 1650
+AR Path="/5F9E3860" Ref="#PWR0106"  Part="1" 
+AR Path="/5F9CF1F9/5F9E3860" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0106" H 5150 1500 50  0001 C CNN
+F 1 "+5VA" H 5165 1823 50  0000 C CNN
+F 2 "" H 5150 1650 50  0001 C CNN
+F 3 "" H 5150 1650 50  0001 C CNN
+	1    5150 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 1650
+$Comp
+L Device:C C6
+U 1 1 5F9E3874
+P 3600 2750
+AR Path="/5F9E3874" Ref="C6"  Part="1" 
+AR Path="/5F9CF1F9/5F9E3874" Ref="C?"  Part="1" 
+F 0 "C6" H 3715 2796 50  0000 L CNN
+F 1 "100n" H 3715 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3638 2600 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/tdk-corporation/CGA1A2X7R1A103M030BA/445-12060-1-ND/3953726" H 3600 2750 50  0001 C CNN
+	1    3600 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2550 3600 2600
+$Comp
+L Device:C C7
+U 1 1 5F9E387F
+P 5100 2750
+AR Path="/5F9E387F" Ref="C7"  Part="1" 
+AR Path="/5F9CF1F9/5F9E387F" Ref="C?"  Part="1" 
+F 0 "C7" H 5215 2796 50  0000 L CNN
+F 1 "100n" H 5215 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5138 2600 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/tdk-corporation/CGA1A2X7R1A103M030BA/445-12060-1-ND/3953726" H 5100 2750 50  0001 C CNN
+	1    5100 2750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4950 2550 5100 2550
+Wire Wire Line
+	5100 2550 5100 2600
+Wire Wire Line
+	4950 3350 4950 2550
+Wire Wire Line
+	4800 3350 4950 3350
+$Comp
+L power:+5VA #PWR0107
+U 1 1 5F9E388A
+P 4800 3150
+AR Path="/5F9E388A" Ref="#PWR0107"  Part="1" 
+AR Path="/5F9CF1F9/5F9E388A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0107" H 4800 3000 50  0001 C CNN
+F 1 "+5VA" H 4815 3323 50  0000 C CNN
+F 2 "" H 4800 3150 50  0001 C CNN
+F 3 "" H 4800 3150 50  0001 C CNN
+	1    4800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3150 4800 3350
+$Comp
+L power:GND #PWR0108
+U 1 1 5F9E3891
+P 5250 3000
+AR Path="/5F9E3891" Ref="#PWR0108"  Part="1" 
+AR Path="/5F9CF1F9/5F9E3891" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0108" H 5250 2750 50  0001 C CNN
+F 1 "GND" H 5255 2827 50  0000 C CNN
+F 2 "" H 5250 3000 50  0001 C CNN
+F 3 "" H 5250 3000 50  0001 C CNN
+	1    5250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2900 5100 2950
+Wire Wire Line
+	3600 2900 3600 2950
+Wire Notes Line
+	900  4650 6200 4650
+Wire Notes Line
+	900  750  6200 750 
+Wire Wire Line
+	1150 3350 1050 3350
+$Comp
+L Device:R R1
+U 1 1 5F9E389C
+P 1650 3350
+AR Path="/5F9E389C" Ref="R1"  Part="1" 
+AR Path="/5F9CF1F9/5F9E389C" Ref="R?"  Part="1" 
+F 0 "R1" V 1443 3350 50  0000 C CNN
+F 1 "82k" V 1534 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1580 3350 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGP1206F82K/A130561CT-ND/8578393" H 1650 3350 50  0001 C CNN
+	1    1650 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 3350 1500 3350
+Wire Wire Line
+	1800 3350 1850 3350
+Wire Wire Line
+	3650 1650 3750 1650
+Connection ~ 3750 1650
+Text Notes 6300 3100 1    50   ~ 0
+GND nicht zwingend notwendig
+Wire Notes Line
+	900  750  900  4650
+Wire Notes Line
+	6200 750  6200 4650
+Wire Notes Line
+	5550 1250 5550 2350
+Wire Notes Line
+	3450 2350 3450 1250
+Text Notes 4100 2300 0    50   ~ 0
+DC to DC Converter 
+Wire Notes Line
+	3350 1300 3350 2300
+$Comp
+L Device:C C2
+U 1 1 5F96FA8E
+P 2650 1850
+AR Path="/5F96FA8E" Ref="C2"  Part="1" 
+AR Path="/5F8B9174/5F96FA8E" Ref="C?"  Part="1" 
+AR Path="/5F9CF1F9/5F96FA8E" Ref="C?"  Part="1" 
+F 0 "C2" H 2765 1896 50  0000 L CNN
+F 1 "1u" H 2765 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2688 1700 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL31B105KAHNNNE/1276-1097-1-ND/3889183" H 2650 1850 50  0001 C CNN
+	1    2650 1850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	950  2300 3350 2300
+Wire Notes Line
+	950  1300 3350 1300
+$Comp
+L Device:C C3
+U 1 1 5F97B643
+P 2250 1850
+AR Path="/5F97B643" Ref="C3"  Part="1" 
+AR Path="/5F8B9174/5F97B643" Ref="C?"  Part="1" 
+AR Path="/5F9CF1F9/5F97B643" Ref="C?"  Part="1" 
+F 0 "C3" H 2365 1896 50  0000 L CNN
+F 1 "100n" H 2365 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2288 1700 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/tdk-corporation/CGA1A2X7R1A103M030BA/445-12060-1-ND/3953726" H 2250 1850 50  0001 C CNN
+	1    2250 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2650 1700
+Connection ~ 2650 2000
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F98A5D0
+P 2100 1000
+F 0 "#FLG0101" H 2100 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 2100 1173 50  0000 C CNN
+F 2 "" H 2100 1000 50  0001 C CNN
+F 3 "~" H 2100 1000 50  0001 C CNN
+	1    2100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F98B4D1
+P 2500 1000
+F 0 "#FLG0102" H 2500 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 2500 1173 50  0000 C CNN
+F 2 "" H 2500 1000 50  0001 C CNN
+F 3 "~" H 2500 1000 50  0001 C CNN
+	1    2500 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2000 1050 0    50   Input ~ 0
+L
+Text GLabel 2600 1050 2    50   Input ~ 0
+N
+Wire Wire Line
+	2000 1050 2100 1050
+Wire Wire Line
+	2100 1050 2100 1000
+Wire Wire Line
+	2500 1000 2500 1050
+Wire Wire Line
+	2500 1050 2600 1050
+$Comp
+L power:GND #PWR0109
+U 1 1 5F996342
+P 5150 2100
+F 0 "#PWR0109" H 5150 1850 50  0001 C CNN
+F 1 "GND" H 5155 1927 50  0000 C CNN
+F 2 "" H 5150 2100 50  0001 C CNN
+F 3 "" H 5150 2100 50  0001 C CNN
+	1    5150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2100 5150 2050
+$Comp
+L Device:C C8
+U 1 1 5F9C9550
+P 3200 2750
+AR Path="/5F9C9550" Ref="C8"  Part="1" 
+AR Path="/5F8B9174/5F9C9550" Ref="C?"  Part="1" 
+AR Path="/5F9CF1F9/5F9C9550" Ref="C?"  Part="1" 
+F 0 "C8" H 3086 2796 50  0000 R CNN
+F 1 "10u" H 3086 2705 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3238 2600 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL31B105KAHNNNE/1276-1097-1-ND/3889183" H 3200 2750 50  0001 C CNN
+	1    3200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5F9CB0DB
+P 5500 2750
+AR Path="/5F9CB0DB" Ref="C9"  Part="1" 
+AR Path="/5F8B9174/5F9CB0DB" Ref="C?"  Part="1" 
+AR Path="/5F9CF1F9/5F9CB0DB" Ref="C?"  Part="1" 
+F 0 "C9" H 5615 2796 50  0000 L CNN
+F 1 "10u" H 5615 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5538 2600 50  0001 C CNN
+F 3 "https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL31B105KAHNNNE/1276-1097-1-ND/3889183" H 5500 2750 50  0001 C CNN
+	1    5500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2550 5500 2550
+Wire Wire Line
+	5500 2550 5500 2600
+Connection ~ 5100 2550
+Wire Wire Line
+	5100 2950 5250 2950
+Wire Wire Line
+	5500 2950 5500 2900
+Wire Wire Line
+	5250 2950 5250 3000
+Connection ~ 5250 2950
+Wire Wire Line
+	5250 2950 5500 2950
+Wire Wire Line
+	3200 2550 3200 2600
+Wire Wire Line
+	3200 2950 3200 2900
+Wire Wire Line
+	3800 3900 3800 3750
+$Comp
+L IsolationBarrier-rescue:AMC1301-PCB_library U2
+U 1 1 5F9853FA
+P 4350 3150
+F 0 "U2" H 4350 3215 50  0000 C CNN
+F 1 "AMC1301" H 4350 3124 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 4350 3100 50  0001 C CNN
+F 3 "" H 4350 3100 50  0001 C CNN
+	1    4350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3150 3900 3350
+Connection ~ 4800 3350
+Wire Wire Line
+	3900 3350 3700 3350
+Wire Wire Line
+	3700 2550 3700 3350
+Connection ~ 3900 3350
+Connection ~ 3600 2550
+Wire Wire Line
+	3600 2550 3200 2550
+Wire Wire Line
+	3600 2550 3700 2550
+Wire Wire Line
+	3150 3350 3350 3350
+Wire Wire Line
+	3350 3350 3350 3500
+Wire Wire Line
+	3350 3500 3900 3500
+Connection ~ 3150 3350
+Wire Wire Line
+	3900 3600 3350 3600
+Wire Wire Line
+	3350 3600 3350 3850
+Wire Wire Line
+	3350 3850 3150 3850
+Connection ~ 3150 3850
+Wire Wire Line
+	3900 3750 3800 3750
+$Comp
+L IsolationBarrier-rescue:R05P05S_R8-PCB_library U1
+U 1 1 5F9991FD
+P 4500 1500
+F 0 "U1" H 4500 1617 50  0000 C CNN
+F 1 "R05P05S_R8" H 4500 1526 50  0000 C CNN
+F 2 "Frequenzmessung PCB:RECOM-R05P05S" H 4500 1500 50  0001 C CNN
+F 3 "" H 4500 1500 50  0001 C CNN
+	1    4500 1500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3450 1250 5550 1250
+Wire Notes Line
+	3450 2350 5550 2350
+Wire Wire Line
+	3200 2950 3450 2950
+$Comp
+L Converter_ACDC:IRM-03-5 PS1
+U 1 1 5F995C82
+P 1700 1850
+F 0 "PS1" H 1700 2217 50  0000 C CNN
+F 1 "IRM-03-5" H 1700 2126 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT" H 1700 1500 50  0001 C CNN
+F 3 "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF" H 1700 1450 50  0001 C CNN
+	1    1700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0101
+U 1 1 5F99E962
+P 3650 2100
+F 0 "#PWR0101" H 3650 1850 50  0001 C CNN
+F 1 "GND2" H 3655 1927 50  0000 C CNN
+F 2 "" H 3650 2100 50  0001 C CNN
+F 3 "" H 3650 2100 50  0001 C CNN
+	1    3650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0103
+U 1 1 5F9A1893
+P 3200 2100
+F 0 "#PWR0103" H 3200 1850 50  0001 C CNN
+F 1 "GND2" H 3205 1927 50  0000 C CNN
+F 2 "" H 3200 2100 50  0001 C CNN
+F 3 "" H 3200 2100 50  0001 C CNN
+	1    3200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2000 3200 2100
+$Comp
+L power:GND2 #PWR0104
+U 1 1 5F9AABCB
+P 3450 3000
+F 0 "#PWR0104" H 3450 2750 50  0001 C CNN
+F 1 "GND2" H 3455 2827 50  0000 C CNN
+F 2 "" H 3450 3000 50  0001 C CNN
+F 3 "" H 3450 3000 50  0001 C CNN
+	1    3450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2950 3450 3000
+Connection ~ 3450 2950
+Wire Wire Line
+	3450 2950 3600 2950
+$Comp
+L power:GND2 #PWR0105
+U 1 1 5F9AF785
+P 3800 3900
+F 0 "#PWR0105" H 3800 3650 50  0001 C CNN
+F 1 "GND2" H 3805 3727 50  0000 C CNN
+F 2 "" H 3800 3900 50  0001 C CNN
+F 3 "" H 3800 3900 50  0001 C CNN
+	1    3800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3850 1500 3850
+Wire Wire Line
+	2150 3850 2900 3850
+Connection ~ 2900 3850
+Wire Wire Line
+	2900 3350 2150 3350
+Connection ~ 2900 3350
+Wire Wire Line
+	4800 3500 5300 3500
+Wire Wire Line
+	5300 3600 4800 3600
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5FB4DA02
+P 1200 1050
+F 0 "J1" H 1308 1231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1308 1140 50  0000 C CNN
+F 2 "Netzfrequenz:IEC_C8_PCB_Connector" H 1200 1050 50  0001 C CNN
+F 3 "~" H 1200 1050 50  0001 C CNN
+	1    1200 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 1000 4100 0    50   ~ 0
+8,2k jeweils für die Quelle des AHS
+Wire Wire Line
+	2650 1700 3050 1700
+Wire Wire Line
+	2650 2000 3050 2000
+Connection ~ 3050 1700
+Wire Wire Line
+	3050 1700 3200 1700
+Connection ~ 3050 2000
+Wire Wire Line
+	3050 2000 3200 2000
+Wire Wire Line
+	2200 1700 2250 1700
+Wire Wire Line
+	2200 2000 2250 2000
+Connection ~ 2250 1700
+Wire Wire Line
+	2250 1700 2650 1700
+Connection ~ 2250 2000
+Wire Wire Line
+	2250 2000 2650 2000
+$Comp
+L Connector:6P6C J2
+U 1 1 5FB6A932
+P 5700 3500
+F 0 "J2" H 5370 3504 50  0000 R CNN
+F 1 "6P6C" H 5370 3595 50  0000 R CNN
+F 2 "Netzfrequenz:6P6C" V 5700 3525 50  0001 C CNN
+F 3 "~" V 5700 3525 50  0001 C CNN
+	1    5700 3500
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5300 3300
+NoConn ~ 5300 3400
+NoConn ~ 5300 3700
+NoConn ~ 5300 3800
+$EndSCHEMATC
